@@ -1,4 +1,4 @@
-{type Score = {
+type Score = {
     name: string;
     score: number;
   };
@@ -7,4 +7,4 @@
   const bobScore: Score = { name: "Bob", score: 80 };
   const janeScore: Score = { name: "Jane", score: 90 };
   
-  console.log(tomScore);}
+  console.log(tomScore);
