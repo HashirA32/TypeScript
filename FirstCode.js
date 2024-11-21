@@ -1,5 +1,5 @@
 "use strict";
-// Object.defineProperty(exports, "__esModule", { value: true });
+Object.defineProperty(exports, "__esModule", { value: true });
 // Functions Section
 function About() {
     return { name: "hashir", class: 10 };
@@ -30,3 +30,5 @@ var Mydata = ["hashir Ali", 32];
 console.log(Mydata);
 //Tuple Section
 var VistorData = ["hashir", 32];
+var mySeat = "middle Seat granted" /* seatChoice.middleSeat */;
+console.log(mySeat);

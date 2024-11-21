@@ -61,4 +61,15 @@ console.log(Mydata);
 
 let VistorData: [string, number] = ["hashir", 32] 
 
+// Enum Section
+
+const enum seatChoice {
+    windowSeat = "Window Seat granted",
+    middleSeat = "middle Seat granted",
+    lastSeat = "last Seat granted"
+}
+
+let mySeat = seatChoice.middleSeat;
+
+console.log(mySeat)
 export {}
