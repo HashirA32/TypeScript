@@ -74,6 +74,8 @@ let mySeat = seatChoice.middleSeat;
 console.log(mySeat)
 
 
+// interface Section
+
 interface logIn {
      email: string;
     password: number;

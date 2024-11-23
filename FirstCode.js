@@ -39,4 +39,3 @@ var UserLogIn = {
     email: "ajsdhsk",
     age: 24
 };
-console.log(UserLogIn)
