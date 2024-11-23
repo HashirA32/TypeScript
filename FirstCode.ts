@@ -37,15 +37,15 @@ let DCHeroes : string[] = ["SuperMan", "BatMan"];
 console.log(DCHeroes);
 
 
-type login = {
+type Vlogin = {
     name: string,
     password:number
 }
 
-let Login: login[] = []
+let VLogin: Vlogin[] = []
 
-Login.push({name:"Hashir", password:12345})
-console.log(Login)
+VLogin.push({name:"Hashir", password:12345})
+console.log(VLogin)
 
 //Union Section
 
@@ -72,4 +72,25 @@ const enum seatChoice {
 let mySeat = seatChoice.middleSeat;
 
 console.log(mySeat)
+
+
+interface logIn {
+     email: string;
+    password: number;
+}
+interface SingUp extends logIn {
+    name: string;
+    age: number;
+    username:string;
+}
+
+
+
+let UserLogIn : SingUp = {
+    name:"hashir",
+    password:12334,
+    username:"hasdh",
+    email:"ajsdhsk",
+    age:24
+}
 export {}
